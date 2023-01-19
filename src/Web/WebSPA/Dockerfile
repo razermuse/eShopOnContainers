@@ -8,7 +8,6 @@ RUN apt-get -y install curl gnupg
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get -y install nodejs
 RUN npm -g install npm@latest
-RUN npm install
 RUN npm -v
 EXPOSE 80
 
